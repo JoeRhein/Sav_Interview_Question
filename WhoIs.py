@@ -18,7 +18,7 @@ Limitations for implementation:
 Potential Improvements: 
 - More complete input sanitation
 - Other webservers to accomodate more efficient searches
-- More efficient overhead in terms of recieving and parsing the string, as the current implementation takes the whole payload and uses indexing to extract the correct substring
+- More efficient overhead in terms of receiving and parsing the string, as the current implementation takes the whole payload and uses indexing to extract the correct substring
 
 Discussion:
 This software uses the WHOAMI protocol to collect information on a given domain name. The game requires first finding a server that allows for these quieries. I used Turmux and the whois call to find a suitable server for conducting WHOIS quieries. This protocol uses port 43 for communication.
